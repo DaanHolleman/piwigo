@@ -8,9 +8,9 @@ import os
 from setuptools import setup, find_packages
 
 NAME = "piwigo"
-VERSION = "1.0.1"
-DESC = "piwigo description"
-URLPKG = "https://github.com/fraoustin/piwigo.git"
+VERSION = "1.0.2"
+DESC = "piwigo API wrapper"
+URLPKG = "https://github.com/DaanHolleman/piwigo.git"
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 

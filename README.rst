@@ -11,13 +11,13 @@ Installation
 
 ::
 
-    pip install piwigo
+    pip install piwigo2
         
 Or
 
 ::
 
-    git clone https://github.com/fraoustin/piwigo.git
+    git clone https://github.com/DaanHolleman/piwigo.git
     cd piwigo
     python setup.py install
 
