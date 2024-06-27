@@ -7,7 +7,7 @@
 import os
 from setuptools import setup, find_packages
 
-NAME = "piwigo"
+NAME = "piwigo2"
 VERSION = "2.0.1"
 DESC = "piwigo API wrapper"
 URLPKG = "https://github.com/DaanHolleman/piwigo.git"
