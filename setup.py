@@ -7,10 +7,8 @@
 import os
 from setuptools import setup, find_packages
 
-import piwigo
-
 NAME = "piwigo"
-VERSION = piwigo.__version__
+VERSION = "1.0.1"
 DESC = "piwigo description"
 URLPKG = "https://github.com/fraoustin/piwigo.git"
 
