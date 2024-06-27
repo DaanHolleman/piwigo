@@ -1,9 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "piwigo"
-version = "1.0.2"
-dependencies = [
-    "requests"
-]
+dynamic = ["version"]
+description = "piwigo description"
 
-[tool.setuptools.packages]
-find = {}
+readme = {file = "README.srt"}
+license = {file = "LICENSE"}
+classifiers = {file = "CLASSIFIERS.rst"}
+authors = {file = "AUTHORS.txt"}
+dependencies = {file = "REQUIREMENTS.txt"}
+
+[project.urlS]
+Repository = "https://github.com/fraoustin/piwigo.git"
+Changelog = "https://github.com/fraoustin/piwigo/blob/master/CHANGES.rst"
+Manifest = "https://github.com/fraoustin/piwigo/blob/master/MANIFEST.in"
+
+[tool.setuptools.dynamic]
+version = {attr = "piwigo.__version__"}
