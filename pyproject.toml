@@ -1,0 +1,9 @@
+[project]
+name = "piwigo"
+version = "1.0.2"
+dependencies = [
+    "requests"
+]
+
+[tool.setuptools.packages]
+find = {}
